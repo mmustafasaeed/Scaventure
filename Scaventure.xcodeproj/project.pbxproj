@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849FEB777F9261ADA22B3118 /* libPods-Scaventure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1742F0D23FB95201E0FE4AEE /* libPods-Scaventure.a */; };
 		C40DD73F1E74D55D0035B234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DD73E1E74D55D0035B234 /* main.m */; };
 		C40DD7421E74D55D0035B234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DD7411E74D55D0035B234 /* AppDelegate.m */; };
 		C40DD7451E74D55D0035B234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DD7441E74D55D0035B234 /* ViewController.m */; };
 		C40DD7481E74D55D0035B234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40DD7461E74D55D0035B234 /* Main.storyboard */; };
 		C40DD74A1E74D55D0035B234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40DD7491E74D55D0035B234 /* Assets.xcassets */; };
 		C40DD74D1E74D55D0035B234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40DD74B1E74D55D0035B234 /* LaunchScreen.storyboard */; };
+		C40DD7571E74D8E30035B234 /* SuggestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DD7551E74D8E30035B234 /* SuggestionTableViewCell.m */; };
+		C40DD7581E74D8E30035B234 /* SuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40DD7561E74D8E30035B234 /* SuggestionTableViewCell.xib */; };
+		C40DD75B1E74E36B0035B234 /* MainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DD75A1E74E36B0035B234 /* MainMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1742F0D23FB95201E0FE4AEE /* libPods-Scaventure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Scaventure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B446A86798E4105A75DE6FE3 /* Pods-Scaventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaventure.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scaventure/Pods-Scaventure.release.xcconfig"; sourceTree = "<group>"; };
 		C40DD73A1E74D55D0035B234 /* Scaventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scaventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40DD73E1E74D55D0035B234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C40DD7401E74D55D0035B234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		C40DD7491E74D55D0035B234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40DD74C1E74D55D0035B234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C40DD74E1E74D55D0035B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40DD7541E74D8E30035B234 /* SuggestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionTableViewCell.h; sourceTree = "<group>"; };
+		C40DD7551E74D8E30035B234 /* SuggestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionTableViewCell.m; sourceTree = "<group>"; };
+		C40DD7561E74D8E30035B234 /* SuggestionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuggestionTableViewCell.xib; sourceTree = "<group>"; };
+		C40DD7591E74E36B0035B234 /* MainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMapViewController.h; sourceTree = "<group>"; };
+		C40DD75A1E74E36B0035B234 /* MainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMapViewController.m; sourceTree = "<group>"; };
+		E0326B078380A43A40998767 /* Pods-Scaventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scaventure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scaventure/Pods-Scaventure.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849FEB777F9261ADA22B3118 /* libPods-Scaventure.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2DB2023AC3BF89B1EC9723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1742F0D23FB95201E0FE4AEE /* libPods-Scaventure.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4948AAEA11B05B1B231BA146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0326B078380A43A40998767 /* Pods-Scaventure.debug.xcconfig */,
+				B446A86798E4105A75DE6FE3 /* Pods-Scaventure.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C40DD7311E74D55D0035B234 = {
 			isa = PBXGroup;
 			children = (
 				C40DD73C1E74D55D0035B234 /* Scaventure */,
 				C40DD73B1E74D55D0035B234 /* Products */,
+				4948AAEA11B05B1B231BA146 /* Pods */,
+				0D2DB2023AC3BF89B1EC9723 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +94,11 @@
 				C40DD7411E74D55D0035B234 /* AppDelegate.m */,
 				C40DD7431E74D55D0035B234 /* ViewController.h */,
 				C40DD7441E74D55D0035B234 /* ViewController.m */,
+				C40DD7541E74D8E30035B234 /* SuggestionTableViewCell.h */,
+				C40DD7551E74D8E30035B234 /* SuggestionTableViewCell.m */,
+				C40DD7561E74D8E30035B234 /* SuggestionTableViewCell.xib */,
+				C40DD7591E74E36B0035B234 /* MainMapViewController.h */,
+				C40DD75A1E74E36B0035B234 /* MainMapViewController.m */,
 				C40DD7461E74D55D0035B234 /* Main.storyboard */,
 				C40DD7491E74D55D0035B234 /* Assets.xcassets */,
 				C40DD74B1E74D55D0035B234 /* LaunchScreen.storyboard */,
@@ -86,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40DD7511E74D55D0035B234 /* Build configuration list for PBXNativeTarget "Scaventure" */;
 			buildPhases = (
+				759340DB80D7076569462D6F /* [CP] Check Pods Manifest.lock */,
 				C40DD7361E74D55D0035B234 /* Sources */,
 				C40DD7371E74D55D0035B234 /* Frameworks */,
 				C40DD7381E74D55D0035B234 /* Resources */,
+				3EE3CEE5EA2D8FD1EBC4DECE /* [CP] Embed Pods Frameworks */,
+				C0693A62275CB80C1AE5F02B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,10 +181,59 @@
 				C40DD74D1E74D55D0035B234 /* LaunchScreen.storyboard in Resources */,
 				C40DD74A1E74D55D0035B234 /* Assets.xcassets in Resources */,
 				C40DD7481E74D55D0035B234 /* Main.storyboard in Resources */,
+				C40DD7581E74D8E30035B234 /* SuggestionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EE3CEE5EA2D8FD1EBC4DECE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scaventure/Pods-Scaventure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759340DB80D7076569462D6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0693A62275CB80C1AE5F02B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scaventure/Pods-Scaventure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C40DD7361E74D55D0035B234 /* Sources */ = {
@@ -154,6 +243,8 @@
 				C40DD7451E74D55D0035B234 /* ViewController.m in Sources */,
 				C40DD7421E74D55D0035B234 /* AppDelegate.m in Sources */,
 				C40DD73F1E74D55D0035B234 /* main.m in Sources */,
+				C40DD75B1E74E36B0035B234 /* MainMapViewController.m in Sources */,
+				C40DD7571E74D8E30035B234 /* SuggestionTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +362,12 @@
 		};
 		C40DD7521E74D55D0035B234 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0326B078380A43A40998767 /* Pods-Scaventure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69K5FUX4KS;
 				INFOPLIST_FILE = Scaventure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackForClues.Scaventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +376,12 @@
 		};
 		C40DD7531E74D55D0035B234 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B446A86798E4105A75DE6FE3 /* Pods-Scaventure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69K5FUX4KS;
 				INFOPLIST_FILE = Scaventure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackForClues.Scaventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +407,7 @@
 				C40DD7531E74D55D0035B234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

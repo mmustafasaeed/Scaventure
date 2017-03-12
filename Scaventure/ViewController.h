@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *weatherTypeIMage;
+@property (weak, nonatomic) IBOutlet UILabel *weatherTypeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *weatherTypeTemp;
+@property (weak, nonatomic) IBOutlet UITableView *suggestionTableView;
 
 @end
 
